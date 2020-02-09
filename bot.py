@@ -51,7 +51,7 @@ def run_bot(r):
             reply += graph + "\n\n"
 
             if (ratio > 0.80):
-                reply += "/u/" + target.name + " passes the investigation with an impressively high rating."
+                reply += "/u/" + target.name + " passes the investigation with an impressively wholesome rating."
             elif (ratio > 0.6):
                 reply += "/u/" + target.name + " passes the investigation respectably." 
             elif (ratio > 0.45):
@@ -59,7 +59,7 @@ def run_bot(r):
             elif (ratio > 0.2):
                 reply += "/u/" + target.name + " has failed the investigation!"
             else:
-                reply += "/u/" + target.name + " has failed the investigation with an extremely toxic rating!"
+                reply += "/u/" + target.name + " has failed the investigation with a highly toxic rating!"
 
             mention.reply(reply)
         else:
